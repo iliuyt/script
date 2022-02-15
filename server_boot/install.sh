@@ -15,4 +15,4 @@ git clone http://git.iliuyt.com/liuyt/script.git /data/script
 
 cd /data/script
 
-sh  /data/script/server_boot/install_boot.sh
+sh /data/script/server_boot/install_boot.sh
