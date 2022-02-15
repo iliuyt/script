@@ -2,7 +2,7 @@
 
 # 更改apt源
 mv /etc/apt/sources.list /etc/apt/sources.list.bak
-cp ~/.server_boot/ubuntu/20.04/source.list /etc/apt/sources.list
+cp ~/.lyt_script/lyt_script/ubuntu/20.04/source.list /etc/apt/sources.list
 
 # 更新apt
 apt update

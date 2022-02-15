@@ -9,8 +9,8 @@ if !command -v git >/dev/null 2>&1; then
 fi
 
 # 创建server_boot目录
-git clone http://git.iliuyt.com/liuyt/script.git ~/.server_boot
+git clone http://git.iliuyt.com/liuyt/script.git ~/.lyt_script
 
-cd ~/.server_boot
+cd ~/.lyt_script
 
-sh ./install_boot.sh
+sh  ~/.lyt_script/server_boot/install_boot.sh
