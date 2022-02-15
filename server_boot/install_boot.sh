@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# 更改apt源
-mv /etc/apt/sources.list /etc/apt/sources.list.bak
-cp /data/script/server_boot/lib/ubuntu/20.04/source.list /etc/apt/sources.list
+# # 更改apt源
+# mv /etc/apt/sources.list /etc/apt/sources.list.bak
+# cp /data/script/server_boot/lib/ubuntu/20.04/sources.list /etc/apt/sources.list
 
-# 更新apt
-apt update
+# # 更新apt
+# apt update
 
 # 检测vim 是否安装
 if !command -v vim >/dev/null 2>&1; then
