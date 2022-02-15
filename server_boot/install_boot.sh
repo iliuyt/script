@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 更改apt源
-mv /etc/apt/sources.list /etc/apt/sources.list.bak
-cp ~/.lyt_script/lyt_script/ubuntu/20.04/source.list /etc/apt/sources.list
+sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
+sudo cp ~/.lyt_script/lyt_script/ubuntu/20.04/source.list /etc/apt/sources.list
 
 # 更新apt
 apt update
